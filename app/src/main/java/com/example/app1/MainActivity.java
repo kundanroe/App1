@@ -13,6 +13,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        Button pButton = (Button) findViewById(R.id.indoChina);
+        pButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, IndochinaActivity.class));
+            }
+        });
+
         Button mButton = (Button) findViewById(R.id.indoPak);
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -20,24 +29,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, IndoPakActivity.class));
             }
         });
-
-                Button nButton = (Button) findViewById(R.id.kargilWar);
-        mButton.setOnClickListener(new View.OnClickListener() {
-                                       @Override
-                                       public void onClick(View view) {
-                                           startActivity(new Intent(MainActivity.this, kargilActivity.class));
-                                       }
-                                   }
-        );
+        Button nButton = (Button) findViewById(R.id.kargilWar);
+        nButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, kargilActivity.class));
+            }
+        });
 
 
-        Button pButton = (Button) findViewById(R.id.indoChina);
-        mButton.setOnClickListener(new View.OnClickListener() {
-                                       @Override
-                                       public void onClick(View view) {
-                                           startActivity(new Intent(MainActivity.this, IndochinaActivity.class));
-                                       }
-                                   }
-        );
+
     }
 }
