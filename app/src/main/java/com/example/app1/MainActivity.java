@@ -17,8 +17,27 @@ public class MainActivity extends AppCompatActivity {
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, indopak.class));
+                startActivity(new Intent(MainActivity.this, IndoPakActivity.class));
             }
         });
+
+                Button nButton = (Button) findViewById(R.id.kargilWar);
+        mButton.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View view) {
+                                           startActivity(new Intent(MainActivity.this, kargilActivity.class));
+                                       }
+                                   }
+        );
+
+
+        Button pButton = (Button) findViewById(R.id.indoChina);
+        mButton.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View view) {
+                                           startActivity(new Intent(MainActivity.this, IndochinaActivity.class));
+                                       }
+                                   }
+        );
     }
 }

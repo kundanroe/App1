@@ -18,24 +18,24 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
-            android:id="@+id/kargilWar1"
+            android:id="@+id/kargilWar5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="50dp"
-            android:text="India -Pakistan War 1971"
+            android:text="India - China War"
             android:textAlignment="center"
             android:textColor="#673AB7"
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/kargilWar2"
+            android:id="@+id/kargilWar6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="50dp"
             android:layout_marginRight="10dp"
-            android:text="The Indo-Pakistani War of 1971 was a military confrontation between India and Pakistan that occurred during the Bangladesh Liberation War in East Pakistan from 3 December 1971 until the Pakistani capitulation in Dhaka on 16 December 1971. The war began with Pakistan's Operation Chengiz Khan, consisting of preemptive aerial strikes on 11 Indian air stations. The strikes led to India declaring war on Pakistan, marking their entry into the war for East Pakistan's independence, on the side of Bengali nationalist forces. India's entry expanded the existing conflict with Indian and Pakistani forces engaging on both the eastern and western fronts.[43] Thirteen days after the war started, India achieved a clear upper hand, and the Eastern Command of the Pakistan military signed the instrument of surrender[44][45] on 16 December 1971 in Dhaka, marking the formation of East Pakistan as the new nation of Bangladesh. Approximately 93,000 Pakistani servicemen were taken prisoner by the Indian Army, which included 79,676 to 81,000 uniformed personnel of the Pakistan Armed Forces, including some Bengali soldiers who had remained loyal to Pakistan.[46][47] The remaining 10,324 to 12,500 prisoners were civilians, either family members of the military personnel or collaborators (Razakars)."
+            android:text="The Sino-Indian War took place between China and India from October to November 1962, as a major flare-up of the Sino-Indian border dispute. There had been a series of violent border skirmishes between the two countries after the 1959 Tibetan uprising, when India granted asylum to the Dalai Lama. Chinese military action grew increasingly aggressive after India rejected proposed Chinese diplomatic settlements throughout 1960–1962, with China re-commencing previously-banned -forward patrols- in Ladakh after 30 April 1962.[15][16] Amidst the Cuban Missile Crisis, China abandoned all attempts towards a peaceful resolution on 20 October 1962, invading disputed territory along the 3,225-kilometre (2,004 mi) border in Ladakh and across the McMahon Line in the northeastern frontier.[17] Chinese troops pushed back Indian forces in both theatres, capturing all of their claimed territory in the western theatre and the Tawang Tract in the eastern theatre. The conflict ended when China unilaterally declared a ceasefire on 20 November 1962, and simultaneously announced its withdrawal to its claimed -Line of Actual Control- (i.e., the effective China–India border)."
             android:textAlignment="center"
             android:textColor="#FF5722"
             android:textColorHighlight="#9C27B0"
