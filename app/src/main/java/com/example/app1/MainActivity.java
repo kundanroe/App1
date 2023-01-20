@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //app done
+
 
         Button pButton = (Button) findViewById(R.id.indoChina);
         pButton.setOnClickListener(new View.OnClickListener() {
